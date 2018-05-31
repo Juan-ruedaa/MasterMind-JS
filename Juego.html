@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juan Rueda Morales</title>
+    <link rel="stylesheet" href="css/stylesJuego.css">
+    <script src="js/juego.js"></script>
+    <script src="js/masterMind.js"></script>
+</head>
+<body>
+    <noscript>El navegador no soporta JavaScript</noscript>
+<div id="contenido">   
+    <header>
+        <h1>DWEC. Juego MasterMind</h1>
+    </header>
+    <main>
+        <div id="intentosRealizados">
+            <div class="intentoFila">
+                <div class="combinacionPrueba">
+                    <div class="circulosPrueba"></div>
+                    <div class="circulosPrueba"></div>
+                    <div class="circulosPrueba"></div>
+                    <div class="circulosPrueba"></div>
+                </div>
+                <div class="aciertos">
+                    <div class="circuloAcierto"></div>
+                    <div class="circuloAcierto"></div>
+                    <div class="circuloAcierto"></div>
+                    <div class="circuloAcierto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="coloresPosibles">
+            <div id="colorRojo" class="colores"></div>
+            <div id="colorBlanco" class="colores"></div>
+            <div id="colorNegro" class="colores"></div>
+            <div id="colorAmarillo" class="colores"></div>
+            <div id="colorNaranja" class="colores"></div>
+            <div id="colorMarron" class="colores"></div>
+            <div id="colorAzul" class="colores"></div>
+            <div id="colorVerde" class="colores"></div>
+            <div id="botonComprobar">Comprobar</div>
+        </div> 
+
+        <div id="background_shadow"></div>
+        <div id="nuevoJuego"> 
+            <div id="cuadroGanador">
+                <div id="imagenGanador"><img src="images/ganador.png"></div>
+                <div><h1>Enhorabuena. ¡Has ganado!</h1></div>
+                <div id="botonesGanador">
+                    <div id="botonJuegoNuevo">Jugar de nuevo</div>
+                    <div id="botonSalir">Salir</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+</div>     
+</body>
+</html>

@@ -1,0 +1,203 @@
+body{
+    background-color: #84879c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+}
+
+#contenido{
+    *border: 1px solid;
+    width: 55%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    min-height: 750px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px #424242; 
+    background-color: #e7e7e7;
+}
+
+header{
+    *border: 1px solid;
+    width: 100%;
+} 
+
+main{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+
+#intentosRealizados{
+    padding: 5%;
+    *border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    overflow: auto;
+}
+
+.coloresPosibles{
+    *border: 1px solid;
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%; 
+}
+
+.colores{
+    border-radius: 50%;
+    width: 55px;
+    min-height: 55px;
+    margin: 10px;
+}
+
+#colorRojo{
+    background-color: red;
+}
+
+#colorBlanco{
+    background-color: white;
+}
+
+#colorNegro{
+    background-color: black;
+}
+
+#colorAmarillo{
+    background-color: yellow;
+}
+
+#colorNaranja{
+    background-color: orange;
+}
+
+#colorMarron{
+    background-color: brown;
+}
+
+#colorAzul{
+    background-color: blue;
+}
+
+#colorVerde{
+    background-color: green;
+}
+
+#botonComprobar{
+    background-color: #84879c; 
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-right: 8%; 
+    box-shadow: 2px 2px 2px #888888, 0px 0px 1px #888888;
+}
+
+.intentoFila{
+    display: flex;
+    flex-flow: row;
+    margin: 2%;
+}
+
+
+.combinacionPrueba{
+    display: flex;
+    flex-flow: row;
+}
+
+.aciertos{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulosPrueba{
+    border-radius: 50%;
+    width: 65px;
+    min-height: 65px;
+    margin: 0px 10px;
+    background-color: moccasin;
+    border: 1px solid #888585;
+}
+
+.circuloAcierto{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-color: moccasin;
+    display: flex;
+    flex-flow: row;
+    border: 1px solid #888585;
+
+}
+
+
+#nuevoJuego{
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    transition: all 0.5s;
+    align-items: center;
+    z-index: 101;
+}
+
+#cuadroGanador{
+    background-color: #e7e7e7;
+    width: 40%;
+    min-height: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonesGanador{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+ 
+#botonesGanador>div{
+    background-color: #888585;
+    padding: 2%;
+    color: white;
+    margin: 3%; 
+    width: 20%;
+}
+
+#background_shadow{
+    z-index: 100;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+#imagenGanador{
+    margin: 5%;
+}
